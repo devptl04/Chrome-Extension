@@ -36,6 +36,5 @@ The Linkify Assistant is a custom Chrome extension designed to streamline the in
 - `content.js`: Injects scripts to interact with web pages.
 - `popup.html`: The HTML file for the extension's popup interface.
 - `popup.js`: Contains the logic for the popup interface.
-- `styles.css`: Contains the styles for the popup interface.
 
 Thank you for taking the time to look at this! If you have any questions or concerns, contact me at devptl04@gmail.com
