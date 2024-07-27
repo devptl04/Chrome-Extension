@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Job Application Helper</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="flex items-center justify-center h-screen bg-gray-900">
+  <div class="p-1 bg-gradient-to-r from-green-400 via-blue-500 to-purple-600 shadow-lg">
+    <div class="bg-black text-white p-6 w-96">
+      <h1 class="text-center text-xl mb-4 text-blue-400 font-bold">Job Application Helper</h1>
+      <div class="mb-4">
+        <label class="block mb-1">LinkedIn</label>
+        <div class="flex">
+          <input type="url" id="linkedin" placeholder="Add your LinkedIn link" class="flex-grow p-2 mb-2 rounded-l border border-gray-600 bg-gray-800 text-white">
+          <button id="linkedin-add" class="py-2 px-4 mb-2 bg-blue-500 hover:bg-green-500 rounded-r text-white">Add</button>
+        </div>
+      </div>
+      <div class="mb-4">
+        <label class="block mb-1">GitHub</label>
+        <div class="flex">
+          <input type="url" id="github" placeholder="Add your GitHub link" class="flex-grow p-2 mb-2 rounded-l border border-gray-600 bg-gray-800 text-white">
+          <button id="github-add" class="py-2 px-4 mb-2 bg-blue-500 hover:bg-green-500 rounded-r text-white">Add</button>
+        </div>
+      </div>
+      <div class="mb-4">
+        <label class="block mb-1">Personal Portfolio</label>
+        <div class="flex">
+          <input type="url" id="personal" placeholder="Add your Personal Portfolio link" class="flex-grow p-2 mb-2 rounded-l border border-gray-600 bg-gray-800 text-white">
+          <button id="personal-add" class="py-2 px-4 mb-2 bg-blue-500 hover:bg-green-500 rounded-r text-white">Add</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
